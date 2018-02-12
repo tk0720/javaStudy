@@ -7,11 +7,11 @@ public class StaticTest1 {
 	
 	public static void main(String[] args) {
 		
-		s = "ÀÚ¹Ù ½ºÅÂÆ½ º¯¼ö";
+		s = "ìë°” ìŠ¤íƒœí‹± ë³€ìˆ˜";
 		
 		StaticTest1 st1 = new StaticTest1();
 		
-		// a = 1000; ¿À·ù : static ¿µ¿ª, °´Ã¼ÀÇ ÂüÁ¶º¯¼ö¸¦ ÅëÇØ Á¢±Ù °¡´É
+		// a = 1000; ì˜¤ë¥˜ : static ì˜ì—­, ê°ì²´ì˜ ì°¸ì¡°ë³€ìˆ˜ë¥¼ í†µí•´ ì ‘ê·¼ ê°€ëŠ¥
 		st1.a = 1000;
 		System.out.println("s : " + s);
 

@@ -13,7 +13,7 @@ public class OverloadingTest {
 	}
 	
 	private int getLength(String str) {
-		System.out.println("ÀÔ·ÂÇÑ °ªÀÇ ±æÀÌ : "+str.length());
+		System.out.println("ì…ë ¥í•œ ê°’ì˜ ê¸¸ì´ : "+str.length());
 		return 0;
 	}
 	

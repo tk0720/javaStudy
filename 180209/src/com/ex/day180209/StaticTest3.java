@@ -3,7 +3,7 @@ package com.ex.day180209;
 class StaticCount {
 	
 	int c;
-	static int count; //Å¬·¡½º º¯¼ö
+	static int count; //í´ë˜ìŠ¤ ë³€ìˆ˜
 	public StaticCount() {
 		c++;
 		count++;
@@ -15,18 +15,18 @@ public class StaticTest3 {
 	public static void main(String[] args) {
 		
 		StaticCount sc1 = new StaticCount();
-		System.out.println("sc1ÀÇ c : "+sc1.c+", sc1ÀÇ count : "+sc1.count);
+		System.out.println("sc1ì˜ c : "+sc1.c+", sc1ì˜ count : "+sc1.count);
 		
 		
 		StaticCount sc2 = new StaticCount();
-		System.out.println("sc2ÀÇ c : "+sc2.c+", sc2ÀÇ count : "+sc2.count);
+		System.out.println("sc2ì˜ c : "+sc2.c+", sc2ì˜ count : "+sc2.count);
 		
 		
 		StaticCount sc3 = new StaticCount();
-		System.out.println("sc3ÀÇ c : "+sc3.c+", sc3ÀÇ count : "+sc3.count);
+		System.out.println("sc3ì˜ c : "+sc3.c+", sc3ì˜ count : "+sc3.count);
 		
-		// instanceº¯¼ö c´Â °´Ã¼°¡ »ı¼ºµÇ´Â °ø°£¿¡ °¢°¢ ÇÏ³ª¾¿ °¡Áö°í ÀÖÀ½
-		// staticº¯¼ö count´Â Á¤ÀûÀÎ °ø°£(static ¿µ¿ª)¿¡ À¯ÀÏÇÏ°Ô »ı¼º µÇ¾î ¸ğµç °´Ã¼µé·ÎºÎÅÍ °øÀ¯ÇÒ ¼ö ÀÖ´Â °ø°£À» ÀÇ¹Ì
+		// instanceë³€ìˆ˜ cëŠ” ê°ì²´ê°€ ìƒì„±ë˜ëŠ” ê³µê°„ì— ê°ê° í•˜ë‚˜ì”© ê°€ì§€ê³  ìˆìŒ
+		// staticë³€ìˆ˜ countëŠ” ì •ì ì¸ ê³µê°„(static ì˜ì—­)ì— ìœ ì¼í•˜ê²Œ ìƒì„± ë˜ì–´ ëª¨ë“  ê°ì²´ë“¤ë¡œë¶€í„° ê³µìœ í•  ìˆ˜ ìˆëŠ” ê³µê°„ì„ ì˜ë¯¸
 
 	}
 

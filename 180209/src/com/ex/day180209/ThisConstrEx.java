@@ -4,7 +4,7 @@ public class ThisConstrEx {
 	
 	String str;
 	public ThisConstrEx() {
-		this(" "); // this() »ı¼ºÀÚ Ã¹¹øÂ° ÁÙ¿¡¼­¸¸ °¡´É
+		this(" "); // this() ìƒì„±ì ì²«ë²ˆì§¸ ì¤„ì—ì„œë§Œ ê°€ëŠ¥
 	}
 	
 	public ThisConstrEx(char[] ch) {
@@ -21,7 +21,7 @@ public class ThisConstrEx {
 	
 	public ThisConstrEx(String str) {
 		this.str = str;
-		System.out.println(str+"ÀÇ ±æÀÌ : "+str.length());
+		System.out.println(str+"ì˜ ê¸¸ì´ : "+str.length());
 	}
 
 	public static void main(String[] args) {

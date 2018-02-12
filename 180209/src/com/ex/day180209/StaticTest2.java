@@ -7,7 +7,7 @@ class StaticTest2_1 {
 	static String s2 = "STATIC";
 	
 	public static String getString() {
-		return s2; // s1 returnÇÏ¸é ¿À·ù : instance º¯¼ö(¸â¹öº¯¼ö)´Â ÂüÁ¶ÇÒ ¼ö ¾øÀ½
+		return s2; // s1 returní•˜ë©´ ì˜¤ë¥˜ : instance ë³€ìˆ˜(ë©¤ë²„ë³€ìˆ˜)ëŠ” ì°¸ì¡°í•  ìˆ˜ ì—†ìŒ
 	}
 }
 
