@@ -42,5 +42,16 @@ public class InterEx2 implements Inter3{
 		// 인터페이스에 정의된 추상 메서드를 각 객체에 맞게 재정의
 		// 다형성
 		
+		String res = null;
+		if(it1 instanceof Inter2) {
+			res = "맞다";
+		} else {
+			res = "아니다";
+		}
+		System.out.println("it1 instanceof Inter2 : " + res);
+		
+		// 비교 객체 instanceof 비교 클래스명
+		// 객체가 명시한 클래스로부터 생성이 되었는지에 대한 형식을 비교
+		
 	}
 }
